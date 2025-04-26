@@ -19,5 +19,4 @@ Nada é o que parece. Explore, quebre as regras, e **encontre a flag!** ⚔️
 1. **Clone este repositório:**
 
 ```bash
-docker build -t ctf-estagio .
-docker run -d -p 5000:5000 ctf-estagio
+docker-compose up --build -d

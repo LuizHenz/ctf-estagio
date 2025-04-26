@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template_string
 import base64
 app = Flask(__name__)
 
@@ -63,11 +63,13 @@ def almagesto_block():
             <link rel="stylesheet" type="text/css" href="/static/style.css">
         </head>
         <body style="background-color:black; color:white; text-align:center;">
-        <h1 class="glitch">Só porque está na sua frente, não quer dizer que você encontrou.</h1><br>
-        <img src="/static/naogrita.jpeg" width="500">
-        <p class="glitch">EU SI DIVIRTO HAHAHAHAHA</p>
+            <h1 class="glitch">Só porque está na sua frente, não quer dizer que você encontrou.</h1><br>
+            <img src="/static/naogrita.jpeg" width="500">
+            <p class="glitch">EU SI DIVIRTO HAHAHAHAHA</p>
+            <script src="/static/typing.js"></script>
+        </body>
     <html>    
-    ''', 403
+    '''
 
 @app.route('/4lm4g3st0', methods=['POST'])
 def final():
