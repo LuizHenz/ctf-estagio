@@ -16,7 +16,7 @@ Nada é o que parece. Explore, quebre as regras, e **encontre a flag!** ⚔️
 
 ### 🔥 **Passos para executar:**
 
-1. **Clone este repositório:**
+1. **Clone este repositório e execute**
 
 ```bash
 docker-compose up --build -d
